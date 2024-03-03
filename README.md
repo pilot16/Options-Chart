@@ -14,7 +14,9 @@ pip install requests
 # Displaying charts
 After the project is installed, all you have to do is run the main.py, press Ctrl-F and search for a specific instrument, for example "ETH-04MAR24-3400-C".
 ![Search](https://github.com/pilot16/Options-Chart/blob/main/images/search.png?raw=true)
+
 Press enter and you will see the fetched price data for the specific instrument.
 ![Search](https://github.com/pilot16/Options-Chart/blob/main/images/display.png?raw=true)
+
 You can then change the timeframe, or search for new instruments.
 If you're unsure of the different options instruments and names, the function "fetch_instrument_names" can be used to write a file with all the available assets.
